@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: #3f93f3;
+    font-weight: normal;
+    font-family: cursive;
+    color: #333;
+}
+.wrapper {
+    width: 1050px;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1 {
+    display: inline-block;
+    background-color: white;
+    color: #3f93f3;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+.items {
+    display: block;
+    margin: 20px 0px;
+}
+.item {
+    background-color: white;
+    float: left;
+    margin: 0px 10px 10px 0px;
+    width: 220px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.item:hover {
+    box-shadow: 0px 2px 30px #333;
+}
+.item > img {
+    border-radius: 50px;
+}
+.item img {
+    width: 220px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+h2 {
+    font-size: 12px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 5px 0px;
+    text-align: center;
+}
+button {
+    border: 1px solid #3f93f3;
+    padding: 14px 14px;
+    background-color: #3f93f3;
+    color: white;
+    text-transform: uppercase;
+    flex: right;
+    margin: 5px 0px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: white;
+    color: #3f93f3;
+}
+button:focus {
+    outline: none!important;
+}
+span {
+    float: right;
+}
+p {
+    font-size: 14px;
+    text-align: center;
+}
+.shopping-cart {
+    display: inline-block;
+    background: url(./Images/cart.png) no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
